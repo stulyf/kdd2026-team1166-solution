@@ -1,0 +1,24 @@
+dataset:
+  root_path: /input
+
+agent:
+  # model / api_base / api_key are injected by the official harness via the
+  # MODEL_NAME / MODEL_API_URL / MODEL_API_KEY environment variables (these take
+  # priority over the values below; see config.load_app_config).
+  model: qwen3.5-35b-a3b
+  api_base: https://dashscope.aliyuncs.com/compatible-mode/v1
+  api_key: ""
+  temperature: 0.5
+  max_steps: 70
+  max_tokens: 16384
+  enable_thinking: true
+  thinking_budget: 8192
+  enable_planner: true
+  enable_answer_verify: true
+  recent_full_steps: 3
+
+run:
+  output_dir: /output
+  run_id: null
+  max_workers: 8
+  task_timeout_seconds: 1200

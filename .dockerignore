@@ -1,0 +1,43 @@
+# Git
+.git/
+.gitignore
+
+# Python virtual environment (rebuilt inside the image via uv sync)
+.venv/
+venv/
+__pycache__/
+*.py[oc]
+
+# Local dev only — contains optional API keys; submission uses configs/submission.yaml + env
+configs/react_baseline.example.yaml
+configs/smoke_sandbox.yaml
+configs/run_gpt4o.yaml
+configs/run_bailian.yaml
+
+# Local artifacts (previous run results)
+artifacts/
+
+# Public dataset inputs (mounted at runtime via /input)
+public/input/
+
+# Local scratch scripts / debug dumps (not needed in the image)
+_trace_run.py
+dump_traces.py
+dump_traces2.py
+run_batch.py
+run_debug.py
+run_smoke.py
+rerun_failed.py
+try_extract.py
+trace_dump_dbg.py
+_pred_task_59.json
+
+# Docs (keep README.md only)
+*.md
+!README.md
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.tar.gz

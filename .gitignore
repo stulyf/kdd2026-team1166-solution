@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local run artifacts / benchmark outputs (large, not part of the solution itself)
+artifacts/
+output/
+logs/
+*.log
+
+# Datasets (distributed separately by the KDD Cup organizers; not redistributed here)
+data/
+input/
+
+# Docker build products
+*.tar
+*.tar.gz
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets — never commit real credentials
+*.env
+.env.*
+configs/*local*.yaml
+configs/*bailian*.yaml
