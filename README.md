@@ -1,6 +1,8 @@
 # Team 1166 · KDD Cup 2026 DataAgent-Bench Solution
 
-面向 [KDD Cup 2026 DataAgent-Bench](https://dataagent.top) 的数据分析 Agent 方案:基于官方 baseline 重建的单 ReAct Agent,支持在 CSV / JSON / SQLite / PDF / 视频等异构数据源上自主探索、跨源关联并给出结构化答案。
+面向 [KDD Cup 2026 DataAgent-Bench](https://dataagent.top) 的数据分析 Agent 方案
+
+A Board 定榜18名
 
 ## 快速开始
 
