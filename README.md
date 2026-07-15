@@ -1,4 +1,4 @@
-# Team 1166 · KDD Cup 2026 DataAgent-Bench Solution
+# Team 1166 · KDD Cup 2026 DataAgent Solution
 
 面向 [KDD Cup 2026 DataAgent-Bench](https://dataagent.top) 的数据分析 Agent 方案
 
