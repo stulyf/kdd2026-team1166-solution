@@ -2,7 +2,7 @@
 
 面向 [KDD Cup 2026 DataAgent-Bench](https://dataagent.top) 的数据分析 Agent 方案
 
-A Board 定榜18名
+Phase 1 定榜18名
 
 ## 快速开始
 
