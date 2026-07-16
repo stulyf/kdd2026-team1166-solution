@@ -1,8 +1,9 @@
-# Team 1166 · KDD Cup 2026 DataAgent Solution
+# Team 1166 Gold Miner · KDD Cup 2026 DataAgent Solution
 
 面向 [KDD Cup 2026 DataAgent-Bench](https://dataagent.top) 的数据分析 Agent 方案
 
 Phase 1 定榜18名
+Phase 2 定榜32名
 
 ## 快速开始
 
